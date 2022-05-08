@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link id="icono" rel="icon" href="img/d-and-d-brands.svg">
+	<link rel="stylesheet" href="styles/estilos_DnD.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title id="Dnd">Dragones y Mazmorras.</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+	<nav id="Menu">
+		<div id="Enlacesmenu">
+			<a href="DnD.html"><i id="iconoDnD" class="fab fa-d-and-d"></i></a>
+			<a href="DnD _Historia.html">Historia</a>
+			<a href="DnD_Geografia.html">Mapa</a>
+			<a href="DnD_Planos.html">Planos</a>
+			<a href="DnD_Razas.html">Razas</a>
+			<a href="DnD_Magia.html">Magia</a>
+			<a href="DnD_Juegaconnosotros.html">Juega con nosotros</a>
+			<a href="DnD_Aventuras.html">Aventuras Oficiales</a>
+			<a href="DnD_Mapaweb.html">Mapa Web</a>
+		</div>
+
+		<div id="formulario1">
+			
+			<form action="">
+				<div class="formnav">
+					<label for="usuario">Usuario:</label>
+					<input type="text" id="usuario" required minlength="3">
+				</div>
+				<div class="formnav">
+					<label for="contraseña">Contraseña:</label>
+					<input type="password" id="contraseña" required>
+				</div>
+				<div class="formnav">
+					<button type="submit">Enviar</button>
+				</div>
+				
+
+			</form>
+
+		</div>
+	</nav>
+	<div id="titulojuega">
+		<h1>Únete a la hermandad.</h1>
+	</div>
+
+	<h2 id="h2compañeros">¿Necesitas compañeros de aventura?</h2>
+
+	<p>
+		Es peligroso viajar solo por los Reinos Olvidados, aventurero, será mejor que te busques un grupo en el que confiar pronto, eso te ayudará a llegar mas lejos en tus aventuras. ¿No conoces a nadie?, ¿Vienes de tierras lejanas? o quizás... ¿No eres muy de fiar? No hay drama, todos son bienvenidos en nuestra hermandad, solo rellena nuestro formulario y en cuanto encontremos un grupo que necesite de tus habilidades contactaremos contigo más rápido que un mago lanza una bola de fuego en un encuentro social.
+	</p>
+
+	<div id="imgform">
+		<div id="imgjuega2">
+			<img src="img/grupo4.png" alt="">
+		</div>
+		<div id="formulariojugador">
+
+			<h2>¿De dónde vienes, aventurero?.</h2>
+
+			<form action="">
+				<div id="nombreForm">
+					<label for="nombre">Nombre: </label>
+					<input id="nombre" name="nombre" type="text" required minlength="2">
+				</div>
+				<div id="correoForm">
+					<label for="correo">Correo: </label>
+					<input id="correo" name="correo" type="email" required>
+				</div>
+				<br>
+				<h2>Información Personaje</h2>
+				<div id="oficialono">
+					<input type="radio" id="oficial" name="oficial"  checked>
+					<label for="oficial">Oficial</label>
+					<input type="radio" id="Homebrew" name="oficial">
+					<label for="Homebrew">Homebrew</label>
+				</div>
+				<br>
+				<div id="nombrePj">
+					<label for="nombrepj">Nombre Personaje: </label>
+				<input id="nombrepj" name="nombrepj" type="text" required minlength="2">
+				</div>
+				<br>
+				<div id="FormClase">
+					<label>Clase que deseas jugar: </label>
+					<select name="clase" id="clase" required>
+					<option value="BAR">Bárbaro</option>
+					<option value="GUE">Guerrero</option>
+					<option value="MAG">Mago</option>
+					<option value="BRU">Brujo</option>
+					<option value="PAL">Paladín</option>
+					<option value="HEC">Hechizero</option>
+					<option value="BARD">Bardo</option>
+					<option value="SAC">Sacerdote</option>
+					<option value="PIC">Pícaro</option>
+					<option value="RAN">Ranger</option>
+					<option value="DRU">Druída</option>
+					</select>
+				</div>
+				<br>
+				<br>
+				<div id="nivel">
+					<label for="nivelj" min="0" max="20">Nivel:</label>
+					<input type="number" id="nivelj" name="nivelj" >
+				</div>
+				<div id="Subclase">
+					<label for="subclase">Subclase: </label>
+					<input id="subclase" name="subclase" type="text" required minlength="2">
+				</div>
+
+				<br>
+
+				<div id="FormIlustracion">
+				<label for="ilustracionForm">Si lo deseas, puedes añadir una ilustración de tu personaje para ayudarnos a conocerlo mejor.</label>
+
+				<br>
+				<input id="ilustracionForm" name="ilustracionForm" type="file">
+				</div>
+				<br>
+
+				<div id="DescripcionPj">
+					<label for="descripcionpj">Describe brevemente la historia y personalidad de tu personaje:</label>
+				
+				<div id="textodescripcion">
+					<textarea name="descripcionpj" id="descripcionpj" cols="20" rows="10" ></textarea>
+				</div>
+				</div>
+				<div class="condiciones">
+					<label for="condiciones">
+						<input id="condiciones" namee="condiciones" type="checkbox" required>
+						Acepto que se use tanto la imagen como la descripción dada por los miembros de esta página web.
+					</label>
+				</div>
+				<div id="botonform">
+					<button type="submit">Enviar</button>
+				</div>
+				
+			</form>
+			
+
+		</div>
+
+		<div id="imgjuega1">
+			<img src="img/grupo2.png" alt="">
+		</div>
+	</div>
+	<div>
+		<i id="d20" class="fas fa-dice-d20"></i>
+	</div>
+
+	<div id="bannerabajo">
+		
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+	font-family: 'MedievalSharp', cursive;
+	background: #e6e2d3;
+	margin-top: 2.5rem;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#Menu {
+	background: #dac292;
+	border-bottom: solid 4px #b9936c;
+	padding: 0.5rem;
+	position: fixed;
+	top: 0px;
+	display: inline-block;
+	width: 100%;
+
+
+}
+
+#Menu a{
+	box-sizing: border-box;
+	padding: 0.8rem;
+	color: black;
+	font-size: 1.2rem;
+
+}
+
+
+#formulario1{
+
+	display: inline-block;
+}
+
+
+h1 {
+
+	text-align:  center;
+}
+
+#cabezera1 img{
+
+	float: right;
+	max-width: 40%
+
+}
+
+
+
+#titulo {
+
+	display: flex;
+	background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/scaryrulespmdnd-1521232109.png?crop=1xw:0.75xh;center,top&resize=1200:*");
+	background-image: 
+	color: white;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	margin-top: 0px;
+
+
+}
+
+h1{
+
+	font-size: 3rem;
+}
+
+h2{
+
+	margin-left: 1rem;
+}
+
+p{
+
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.h3{
+
+	margin-left: 2rem;
+}
+
+.h4{
+
+	margin-left: 2rem;
+
+}

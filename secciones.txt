@@ -1,0 +1,82 @@
+Secciones: 
+
+PARTE 1 - REQUISITOS HTML.
+
+Enlaces a otras webs: 
+
+	- Hay 3 enlaces a otras web en la página principal llamada: "Reinos Olvidados, 5Edición".
+	- Hay 10 enlaces a otras web en la página llamada "Razas de los Reinos Olvidados". 
+	
+Lista ordenada: 
+
+	- Hay una lista ordenada en la página llamada "Planos de los Reinos Olvidados".
+
+Lista desordenada: 
+
+	- Hay una lista desordenada en la página llamada "Razas de los Reinos Olvidados".
+
+Lista de definiciones:
+
+	- Hay una lista de definiciones en la página llamada "Mapa de la costa de la espada". 
+
+Video dentro de las carpetas de mi web: 
+
+	- Puedes encontrar este video en lá página principal, un trailer de un juego.
+
+Video de Youtube: 
+
+	- Puedes encontrar este video al final de la página "Historia de los Reinos Olvidados". 
+
+Tabla de 14 filas y 4 columnas con cabezera y 2 pies: 
+
+	- Puedes encontrarla al final de la página "Magia en los Reinos Olvidados". 
+
+Formulario de contacto: 
+	
+	- Puedes encontrar el formulario de contacto en la página llamada "Juega con nosotros" (Únete a la hermandad).
+
+
+
+PARTE 2 - REQUISITOS CSS.
+
+Menú de navegación:
+
+	- Puedes verlo encima de todas las secciones de la web.
+
+
+
+
+Dos fuentes distintas: 
+
+	- Una de las fuentes se usa en prácticamente toda la web, la otra puedes encontrarla yendo a "Mapa Web" y clickando en la última sección: 9- Contrato Infernal.
+	  Está ahí porque se trata de una especie de easter egg al que puedes llegar desde la sección "Aventuras oficiales", yendo al final encontrarás una aventura llamada
+	  "Descenso a Averno", en esta aventura se hacen contratos infernales con diablos es por eso que ahí hay un enlace a un contrato.
+
+
+Sección A conformada por 4 imágenes al 25%:
+
+	- Puedes encontrar esto al principio de la sección "Aventuras oficiales". 
+
+Sección B un contenedor con una imagen de fondo y texto encima: 
+
+	- Puedes encontrar esto en todas las cabezeras de las distintas secciones de mi web.
+
+Sección C 50% texto y 50% imagen.
+
+	- Puedes encontrar esto en la sección "Aventuras oficiales" bajo la primera sección.
+
+Seccion D Imagen flotando en texto.
+
+	- Puedes encontrar esto en diversas secciones de la web, como por ejemplo en la páginas "Magia", "Razas" o "Historia". 
+
+Tabla formateada con estilo de la web: 
+
+	- Puedes encontrarla abajo de la página "Magia".
+
+Iconos de Font Awesome: 
+
+	- Hay dos, el de la izquierda del menú de navegación de D&D y abajo de cada sección, antes del footer, un dado de 20 caras. 
+	
+
+
+

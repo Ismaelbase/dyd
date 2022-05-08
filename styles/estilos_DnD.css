@@ -1,0 +1,583 @@
+@font-face {
+
+	font-family: "infernal";
+	src: url(../fonts/infernal2.ttf) format('truetype');
+
+}
+
+input, textarea{
+	font-family: inherit;
+}
+
+
+
+#historia{
+	font-family: 'MedievalSharp', cursive;
+	background: #e6e2d3;
+	margin-top: 2.5rem;
+	margin-bottom: 0px;
+	margin-right: 0px;	
+	margin-left: 0px;
+}
+
+body {
+	font-family: 'MedievalSharp', cursive;
+	background: #e6e2d3;
+	margin-top: 3.4rem;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#Menu {
+	background: #dac292;
+	border-bottom: solid 5px #b9936c;
+	padding: 0.5rem;
+	position: fixed;
+	top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 5;
+
+}
+
+.cuerpopagina{
+	max-width: 1600px;
+	margin: auto;
+}
+
+
+#Menuh {
+	background: #dac292;
+	border-bottom: solid 4px #b9936c;
+	padding: 0.5rem;
+	position: fixed;
+	top: 0px;
+	display: inline-block;
+	width: 100%;
+
+
+}
+
+#iconoDnD{
+	color: darkred;
+	font-size: 2rem;
+}
+button {
+	font: inherit;
+	background: #e6e2d3;
+	color: #59535c;
+}
+
+#Menu a{
+	box-sizing: border-box;
+	padding: 0.8rem;
+	color: black;
+	font-size: 1.2rem;
+
+}
+
+#titulosh2{
+	text-align: center;
+	font-size: 2rem;
+}
+
+#FormIlustracion textarea{
+
+	width: 100%;
+	box-sizing: border-box;
+	resize: vertical;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.formnav{
+	display: inline-block;
+}
+
+
+#formulario1{
+
+	display: inline-block;
+	padding-right: 2rem;
+
+}
+
+#texto_pprincpal img{
+
+	float: right;
+	max-width: 40%;
+	border: solid 5px #b9936c;
+
+}
+
+#texto_pprincpal h2{
+	text-align: center;
+	font-size: 2rem;
+}
+
+
+
+#cabezera1 img{
+
+	float: right;
+	max-width: 40%
+
+
+
+}
+
+#textomapa img{
+
+	float: right;
+	max-width: 40%
+
+}
+
+#textodescripcion textarea{
+	width: 90%;
+}
+
+
+#textomapa li{
+	font-size: 1.3rem;
+	font-weight: bold;
+
+}
+#textomapa dt{
+	color: white;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#textomapa h2{
+	text-align: center;
+	font-size: 2rem;
+}
+#tituloprincipal {
+
+	display: flex;
+	background-image: url("https://static.wikia.nocookie.net/forgottenrealms/images/8/80/NeverwinterHarbor.jpg/revision/latest/scale-to-width-down/1000?cb=20200825214415");
+	background-position: center center;
+	align-items: center;
+	border-bottom: solid black 3px;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 14vh;
+
+}
+
+#titulohistoria {
+
+	display: flex;
+	background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/scaryrulespmdnd-1521232109.png?crop=1xw:0.75xh;center,top&resize=1200:*");
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	margin-top: 0px;
+	border-bottom: solid black 3px;
+
+
+}
+
+#tituloplanos {
+
+	display: flex;
+	background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2015/07/11/748629/ad15826ab064b2344abc064f7832697d-700.jpg");
+	background-position: center center;
+	align-items: center;
+	border-bottom: solid black 3px;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 14vh;
+
+}
+
+#titulojuega {
+
+	display: flex;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dfbf532e-ac46-41ef-9c12-6e1afb6fea89/d71dr1s-df8430de-255e-413e-b32b-321683b4541e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RmYmY1MzJlLWFjNDYtNDFlZi05YzEyLTZlMWFmYjZmZWE4OVwvZDcxZHIxcy1kZjg0MzBkZS0yNTVlLTQxM2UtYjMyYi0zMjE2ODNiNDU0MWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SZLXu8po4xA7_z5BeeQlUk2kLR-6rhmFMu_r-DCuSps");
+	background-position: 60% 25%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+
+}
+
+#titulomapa {
+
+	display: flex;
+	background-image: url("https://i.redd.it/ytqmjsyax9n11.png");
+	background-position: 60% 25%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+
+}
+
+#titulomagia {
+
+	display: flex;
+	background-image: url("https://pawnsperspective.com/wp-content/uploads/2020/11/tbanner.jpg");
+	background-position: 60% 15%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+
+}
+
+#tituloaventuras{
+	display: flex;
+	background-image: url("https://media.dnd.wizards.com/styles/story_banner/public/images/head-banner/Saltmarsh_DnD_Articles_Header-Image.jpg");
+	background-position: 60% 35%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+}
+
+#titulomapaweb{
+	display: flex;
+	background-image: url("https://i.redd.it/db63ajhe4a501.jpg");
+	background-position: 60% 35%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+}
+
+#cuerpomapa h2{
+	text-align: center;
+	font-size: 2.7em;
+}
+#cuerpomapa {
+	text-align: center;
+	font-size: 1.1em;
+}
+#cuerpomapa h3{
+	font-size: 1.5em;
+}
+a{
+	text-decoration: none;
+	color: #82092d;
+	font-weight: ;
+}
+
+#textorazas li{
+	font-size: 1.5rem;
+}
+#textorazas h2{
+	text-align: center;
+	font-size: 2rem;
+}
+
+#titulorazas {
+
+	display: flex;
+	background-image: url("https://assets.dicebreaker.com/dungeons-and-dragons-races-guide.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/dungeons-and-dragons-races-guide.jpg");
+	background-position: 60% 19%;
+	border-bottom: solid black 3px;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 0px;
+	height: 16vh;
+
+}
+
+textarea{
+	resize: vertical;
+}
+
+.tiposmagia{
+	text-align: center;
+	font-size: 2rem;
+}
+
+#botonform button{
+	font-size: 2rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	border: solid #19131c 2px;	
+	color: #b9936c;
+
+}
+
+h1{
+
+	text-align:  center;
+	font-size: 4.2rem;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	color: white;
+}
+
+h2{
+
+	margin-left: 1rem;
+}
+
+p{
+	font-size: 1.1rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+#textorazas img{
+	float: right;
+	max-width: 35%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;
+}
+#orcoimg{
+	max-width: 5%;
+}
+#imgrazas img{
+	float: right;
+	max-width: 45%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;
+}
+
+
+#imagenesmagia img{
+	float: right;
+	max-width: 25%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;	
+}
+
+.h3{
+
+	margin-left: 2rem;
+}
+
+.h4{
+
+	margin-left: 2rem;
+
+}
+#imgjuega1{
+	display: inline;
+	width: 20%;
+
+}
+#imgjuega2{
+	display: inline;
+	width: 20%;
+}
+#imgjuega1 img{
+
+	display: inline-block;
+	width: 100%;
+
+}
+#imgjuega2 img{
+
+	display: inline-block;
+	width: 100%;
+}
+
+#formulariojugador{
+
+	width: 60%;
+	display: inline-block;
+	outline: 8px inset rgba(117,82,40,0.72);
+	outline-offset: 0px;
+	background-image: url(https://webdesignledger.com/wp-content/uploads/tan-antique-vintage-paper.jpg);
+	font-weight: bolder;
+
+}
+#imgform{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+#h2compañeros{
+	text-align: center;
+}
+#bannerabajo{
+
+
+
+	background-image: url(https://media.dnd.wizards.com/styles/news_banner_header/public/images/head-banner/bg-heroes_0.jpg) ;
+	background-size: cover;
+	border-top: solid black 3px;
+}
+
+#bannerabajo {
+
+	height: 30vh;
+	margin-bottom: 0px;
+}
+
+#d20{
+
+	font-size: 5rem;
+	color: darkred;
+	text-align: center;
+	display: block;
+	padding: 2rem;
+}
+
+
+{
+	font-family: "infernal";
+}
+
+#planos li{
+	font-size: 1.5rem;
+	font-weight: bold;
+
+}
+
+#planos h2{
+	font-size: 2rem;
+	text-align: center;
+}
+
+#planos img{
+	float: right;
+	max-width: 30%;
+}
+
+#formulariojugador{
+	text-align: center;
+}
+
+
+
+#imagenumbra img{
+	float: right;
+	max-width: 45%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;
+}
+
+
+
+#imgmirkul img{
+	float: right;
+	max-width: 20%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;
+}
+
+
+
+#imgdragon1 img{
+	float: right;
+	max-width: 40%;
+	border: solid #b9936c 2px;
+	margin: 0.5rem;
+}
+#tablahechizos{
+	display: flex;
+	justify-content: center;
+}
+#tablahechizos table{
+	border-collapse: collapse;
+	overflow-x: auto;
+
+}
+#tablahechizos td, th{
+	border: 3px solid #b9936c;
+	padding: 0.5em;
+	text-align: center;
+	vertical-align: center;
+	font-weight: ;
+}
+
+#Enlacesmenu{
+	display: inline-block;
+
+}
+
+#cuerpoaventuras p,img{
+
+	width: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#cuerpoaventuras{
+	box-sizing: border-box;
+}
+
+#cuerpoaventuras h2{
+	text-align: center;
+	font-size: 2rem;
+}
+.flexlibros {
+	display: flex;
+	align-items: center;
+}
+
+#Video{
+	display: flex;
+	justify-content: center;
+}
+
+#librosbasicos{
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.v5 img {
+	margin-top: 1rem;
+	width: 100%;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+
+.v5{
+	display: inline-block;
+	max-width: 25%;
+	min-width: 40vh;
+}
+
+#librosbasicos h3{
+	text-align: center;
+}
+
+#videodyd{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	
+}
+
+#nivel{
+	display: inline-block;
+}
+
+#Subclase{
+	display: inline-block;
+	margin-bottom: 1rem;
+}
